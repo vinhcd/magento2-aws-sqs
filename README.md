@@ -1,4 +1,4 @@
-# magento2-aws-sns
+# magento2-aws-sqs
 AWS SQS pushing service for magento2
 
 # Copyright
