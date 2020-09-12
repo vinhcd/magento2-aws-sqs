@@ -1,0 +1,20 @@
+{
+  "name": "vinhcd/aws-sqs",
+  "description": "A Magento2 module for pushing message to AWS SQS",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "aws/aws-sdk-php": "~3.147.0",
+    "vinhcd/core": "~1.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Vinhcd\\AwsSqs\\": ""
+    }
+  }
+}
